@@ -22,7 +22,7 @@ public class SortTestUtil {
             //创建对照组并检查
             Arrays.sort(arr2);
             if (!compare(arr1, arr2)) {
-                System.out.println("排序有误");
+                System.out.println("排序有误" + i);
                 printArray(arr2);
                 printArray(arr1);
                 return ;
